@@ -1,0 +1,30 @@
+
+package poo_esferas_ejercicio_propuesto24;
+
+import java.util.Scanner;
+
+public class POO_Esferas_Ejercicio_Propuesto24 {
+
+    public static void main(String[] args) {
+        Scanner esferas = new Scanner(System.in);
+        
+        int A, B, C;
+        
+        System.out.println("Ingrese el peso de la esfera A: ");
+        A = esferas.nextInt();
+        System.out.println("Ingrese el peso de la esfera B: ");
+        B = esferas.nextInt();
+        System.out.println("Ingrese el peso de la esfera C: ");
+        C = esferas.nextInt();
+        
+        if (A>B && A>C){
+            System.out.println("La esfera mayor es A");        
+        }
+        else if (B>A && B>C){
+            System.out.println("La esfera mayor es B");        
+        }
+        else if (C>A && C>B){
+            System.out.println("La esfera mayor es C");
+        }
+    } 
+}
